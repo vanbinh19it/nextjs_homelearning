@@ -1,0 +1,57 @@
+:export {
+  colorMain: var(--primary);
+}
+
+$mobile-width: 480px;
+$desktop-width: 1200px;
+$desktop2-width: 992px;
+$desktop3-width: 769px;
+
+@mixin mobile1 {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+@mixin mobile2 {
+  @media (max-width: #{$mobile-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+@mixin tablet2 {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$desktop2-width - 1px}) {
+    @content;
+  }
+}
+@mixin tablet3 {
+  @media (max-width: #{$desktop3-width - 1px}) {
+    @content;
+  }
+}
+
+.navbar {
+  .navbar_collapse {
+    .navbar_collapse_nav {
+      .navbar_collapse_nav_nav_link {
+        font-size: 18px;
+        font-weight: 500;
+
+        @include mobile2 {
+          color: red;
+        }
+      }
+
+      .navbar_collapse_nav_dropdown_menu {
+        .navbar_collapse_nav_dropdown_item {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

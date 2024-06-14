@@ -1,0 +1,16 @@
+.footer {
+  .footer_item_tren {
+    .footer_content {
+      .footer_list_item {
+        display: flex;
+        flex-direction: column;
+        .footer_title {
+          a.footer_item_content {
+            margin: 2px !important;
+            color: white !important;
+          }
+        }
+      }
+    }
+  }
+}
