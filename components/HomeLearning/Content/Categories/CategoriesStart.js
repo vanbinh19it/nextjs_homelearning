@@ -1,17 +1,19 @@
 import React from "react";
 import Image from "next/image";
 
-import cat1Image from "../../../public/static/assets/img/cat-1.jpg";
-import cat2Image from "../../../public/static/assets/img/cat-2.jpg";
-import cat3Image from "../../../public/static/assets/img/cat-3.jpg";
-import cat4Image from "../../../public/static/assets/img/cat-4.jpg";
+import cat1Image from "../../../../public/static/assets/img/cat-1.jpg";
+import cat2Image from "../../../../public/static/assets/img/cat-2.jpg";
+import cat3Image from "../../../../public/static/assets/img/cat-3.jpg";
+import cat4Image from "../../../../public/static/assets/img/cat-4.jpg";
 
 import styles from "./CategoriesStart.scss";
+
+import about from "../About/AboutStart.module.scss";
 
 const CategoriesStart = () => {
   return (
     <div className={`${styles.hello} container-xxl py-5 p-1 category`}>
-      <div className="container p-1">
+      <div className={`${about.categories_home} container p-1`}>
         <div
           className={`${styles.hello} text-center wow fadeInUp`}
           data-wow-delay="0.1s"

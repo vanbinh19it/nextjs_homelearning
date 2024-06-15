@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import course1 from "../../../public/static/assets/img/course-1.jpg";
-import course2 from "../../../public/static/assets/img/course-2.jpg";
-import course3 from "../../../public/static/assets/img/course-3.jpg";
+import course1 from "../../../../public/static/assets/img/course-1.jpg";
+import course2 from "../../../../public/static/assets/img/course-2.jpg";
+import course3 from "../../../../public/static/assets/img/course-3.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

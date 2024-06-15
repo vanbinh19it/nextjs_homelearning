@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import aboutUs from "../../../public/static/assets/img/about.jpg";
+import aboutUs from "../../../../public/static/assets/img/about.jpg";
 
 import styles from "./AboutStart.module.scss";
 
@@ -12,7 +12,7 @@ const AboutStart = () => {
   return (
     <div className={`${styles.about} container-xxl p-1 py-5 `}>
       <div className={`${styles.about_hello} container `}>
-        <div className={`${styles.hello} row g-5`}>
+        <div className={`${styles.about_home_task} row g-5`}>
           <div
             className={`${styles.hello} col-lg-6 wow fadeInUp`}
             data-wow-delay="0.1s"
@@ -47,6 +47,10 @@ const AboutStart = () => {
                   <FontAwesomeIcon
                     icon={faArrowRight}
                     className={`${styles.hello} text-primary me-2`}
+                  />
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    className="text-primary me-2 "
                   />
                   Skilled Instructors
                 </p>

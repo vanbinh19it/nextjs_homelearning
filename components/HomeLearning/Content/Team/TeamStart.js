@@ -8,10 +8,10 @@ import {
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import instructor1 from "../../../public/static/assets/img/team-1.jpg";
-import instructor2 from "../../../public/static/assets/img/team-2.jpg";
-import instructor3 from "../../../public/static/assets/img/team-3.jpg";
-import instructor4 from "../../../public/static/assets/img/team-4.jpg";
+import instructor1 from "../../../../public/static/assets/img/team-1.jpg";
+import instructor2 from "../../../../public/static/assets/img/team-2.jpg";
+import instructor3 from "../../../../public/static/assets/img/team-3.jpg";
+import instructor4 from "../../../../public/static/assets/img/team-4.jpg";
 
 import styles from "./TeamStart.module.scss";
 

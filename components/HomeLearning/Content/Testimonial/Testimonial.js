@@ -7,10 +7,10 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 // Dynamically import OwlCarousel to prevent SSR issues
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), { ssr: false });
 
-import testimonial1 from "../../../public/static/assets/img/testimonial-1.jpg";
-import testimonial2 from "../../../public/static/assets/img/testimonial-2.jpg";
-import testimonial3 from "../../../public/static/assets/img/testimonial-3.jpg";
-import testimonial4 from "../../../public/static/assets/img/testimonial-4.jpg";
+import testimonial1 from "../../../../public/static/assets/img/testimonial-1.jpg";
+import testimonial2 from "../../../../public/static/assets/img/testimonial-2.jpg";
+import testimonial3 from "../../../../public/static/assets/img/testimonial-3.jpg";
+import testimonial4 from "../../../../public/static/assets/img/testimonial-4.jpg";
 
 import styles from "./Testimonial.module.scss";
 

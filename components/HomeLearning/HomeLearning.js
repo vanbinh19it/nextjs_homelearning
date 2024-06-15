@@ -1,13 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import CarouselStart from "./Carousel/CarouselStart";
-import ServiceStart from "./ServiceStart/ServiceStart";
-import AboutStart from "./About/AboutStart";
-import CategoriesStart from "./Categories/CategoriesStart";
-import CourseStart from "./Course/CourseStart";
-import TeamStart from "./Team/TeamStart";
-import Testimonial from "./Testimonial/Testimonial";
+import CarouselStart from "./Content/Carousel/CarouselStart";
+import ServiceStart from "./Content/ServiceStart/ServiceStart";
+import AboutStart from "./Content/About/AboutStart";
+import CategoriesStart from "./Content/Categories/CategoriesStart";
+import CourseStart from "./Content/Course/CourseStart";
+import TeamStart from "./Content/Team/TeamStart";
+import Testimonial from "./Content/Testimonial/Testimonial";
+import AboutDemo from "./Content/About/AboutDemo";
 
 const HomeLearning = () => {
   return (
@@ -18,6 +19,7 @@ const HomeLearning = () => {
       <ServiceStart />
 
       <AboutStart />
+      <AboutDemo />
 
       <CategoriesStart />
 

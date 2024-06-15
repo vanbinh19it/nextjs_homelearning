@@ -4,10 +4,11 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import styles from "./CarouselStart.modules.scss";
+
 import Image from "next/image";
 
-import Carousel1 from "../../../public/static/assets/img/carousel-1.jpg";
-import Carousel2 from "../../../public/static/assets/img/carousel-2.jpg";
+import Carousel1 from "../../../../public/static/assets/img/carousel-1.jpg";
+import Carousel2 from "../../../../public/static/assets/img/carousel-2.jpg";
 
 // Dynamically import OwlCarousel to prevent SSR issues
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), { ssr: false });
